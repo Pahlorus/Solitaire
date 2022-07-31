@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 788816dab9e4989419c5b3f10c90617c, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  timeDelayAfterAction: 100
+  isDebug: 0
+  baseDeckCardCount: 40
+  stackCardCount: 4
+  minCombCardCount: 2
+  maxCombCardCount: 7
+  cardConfig: {fileID: 11400000, guid: 710c213f6ca448a44b9ff5e4572891d2, type: 2}
+  cardDifferenceRaitingMin: 1
+  cardDifferenceRaitingMax: 12

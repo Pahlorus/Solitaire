@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4056d0faef8c07e4393e19a54d86e0c1, type: 3}
+  m_Name: CardConfig
+  m_EditorClassIdentifier: 
+  reversCardSprite: {fileID: 21300000, guid: f2a625aa36bc4dc418e9260e0ce65f66, type: 3}
+  cardVisualList:
+  - cardColor: {r: 0, g: 0, b: 0, a: 1}
+    suit: 0
+    frontSprite: {fileID: 21300000, guid: f3da0c53f74f44345916024b365e9025, type: 3}
+  - cardColor: {r: 0, g: 0, b: 0, a: 1}
+    suit: 1
+    frontSprite: {fileID: 21300000, guid: 596f2b766b01a6b4a90ac5bb9c632e52, type: 3}
+  - cardColor: {r: 0.9882353, g: 0.08235294, b: 0.08627451, a: 1}
+    suit: 2
+    frontSprite: {fileID: 21300000, guid: 2e6e4156aaef9f34ba3e8d28f5e7b3a8, type: 3}
+  - cardColor: {r: 0.9882353, g: 0.08235294, b: 0.08627451, a: 1}
+    suit: 3
+    frontSprite: {fileID: 21300000, guid: f509a4d3258895a49b33d0e1decb999a, type: 3}
+  cardRaiting:
+  - raiting: 1
+    shortName: A
+    name: 0
+  - raiting: 2
+    shortName: 2
+    name: 1
+  - raiting: 3
+    shortName: 3
+    name: 2
+  - raiting: 4
+    shortName: 4
+    name: 3
+  - raiting: 5
+    shortName: 5
+    name: 4
+  - raiting: 6
+    shortName: 6
+    name: 5
+  - raiting: 7
+    shortName: 7
+    name: 6
+  - raiting: 8
+    shortName: 8
+    name: 7
+  - raiting: 9
+    shortName: 9
+    name: 8
+  - raiting: 10
+    shortName: 10
+    name: 9
+  - raiting: 11
+    shortName: J
+    name: 10
+  - raiting: 12
+    shortName: Q
+    name: 11
+  - raiting: 13
+    shortName: K
+    name: 12
+  cardMoveDuration: 0.7
+  cardDealDuration: 0.3
+  moveEase: 14
+  dealEase: 17
+  minRaiting: 1
+  maxRaiting: 13

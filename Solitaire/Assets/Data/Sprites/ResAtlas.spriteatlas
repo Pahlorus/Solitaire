@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ResAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ae168444297829945a5ba2ce4e0a6c3a, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f3da0c53f74f44345916024b365e9025, type: 3}
+  - {fileID: 21300000, guid: f509a4d3258895a49b33d0e1decb999a, type: 3}
+  - {fileID: 21300000, guid: 2e6e4156aaef9f34ba3e8d28f5e7b3a8, type: 3}
+  - {fileID: 21300000, guid: 596f2b766b01a6b4a90ac5bb9c632e52, type: 3}
+  - {fileID: 21300000, guid: f2a625aa36bc4dc418e9260e0ce65f66, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Clubs
+  - Hearts
+  - Diamonds
+  - Spades
+  - ReverseCard
+  m_RenderDataMap: {}
+  m_Tag: ResAtlas
+  m_IsVariant: 0
