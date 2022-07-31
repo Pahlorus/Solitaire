@@ -1,0 +1,12 @@
+*.csproj
+*.user
+*.sln
+/.vs/
+/Library/
+/Logs/
+/obj/
+/Temp/
+/Builds/
+/ProjectSettings/ProjectCuratorSettings.json
+**/.thumb/
+/UserSettings/
